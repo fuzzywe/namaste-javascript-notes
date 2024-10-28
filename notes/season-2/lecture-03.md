@@ -1,5 +1,20 @@
 # Episode 22 : Creating a Promise, Chaining & Error Handling
-
+00:00 🚀 Promises simplify asynchronous operations in JavaScript, enhancing code readability and developer productivity.
+00:27 💼 The episode covers creating custom promises, error handling, and promise chaining with practical examples.
+01:12 🛒 Example scenario: Creating an order in an e-commerce website using asynchronous operations.
+02:03 🔗 Creating a promise involves using the Promise constructor with resolve and reject functions.
+03:12 📝 Promises allow developers to control when asynchronous operations succeed (resolve) or fail (reject).
+08:31 🔍 Gracefully handle promise rejections using the catch method to avoid silent errors in production.
+15:10 🔄 Promise chaining enables sequential execution of asynchronous tasks, passing data between them for streamlined workflows.
+20:13 🎯 Promise chaining allows passing data between asynchronous operations, simplifying complex workflows.
+20:55 🔄 Promises are crucial for handling asynchronous operations, such as handling payments in an e-commerce scenario.
+23:23 ❌ A common error in promise chaining is forgetting to return values down the chain, leading to unexpected behaviour and difficult debugging.
+24:31 🔗 To pass data down the promise chain, always return the necessary values or promises from each link in the chain.
+26:33 🛑 The catch method is essential for handling errors in promise chains, ensuring graceful error handling throughout the chain.
+28:27 🔄 Placing a catch statement strategically allows specific error handling for different parts of the promise chain, ensuring robust error management.
+30:01 🔄 Regardless of errors, the 'then' method following a 'catch' statement will always be executed, providing a reliable continuation point in the chain.
+32:30 📚 A recap of key concepts covered: creating promises, error handling with catch, and chaining promises for sequential asynchronous operations.
+36:14 📝 Homework assignment: Create a promise chain simulating an e-commerce scenario with four async operations, emphasizing proper chaining and error handling.
 ###
 
 ```js
